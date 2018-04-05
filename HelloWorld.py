@@ -9,7 +9,7 @@ import bottle as bt
 
 @bt.get('/') # or @route('/login')
 def init():
-    return '''<h1>First Heroku App!!!</h1>'''
+    return '''<h1>First Heroku App2!!!</h1>'''
 
 
 bt.run(host='0.0.0.0', port=argv[1])
