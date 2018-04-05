@@ -4,8 +4,6 @@ Spyder Editor
 
 This is a temporary script file.
 """
-import pandas as pd
-import numpy as np
 import bottle as bt
 import os
 from os import environ as env
