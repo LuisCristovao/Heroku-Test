@@ -11,7 +11,9 @@ import numpy as np
 @bt.get('/') # or @route('/login')
 def init():
 	
-    return bt.static_file("index.html",root="files/") 
+
+    return "<h1>First Heroku App "+str(np.random.randint())+" !!!</h1>"
+
 
 
 bt.run(host='0.0.0.0', port=argv[1])
