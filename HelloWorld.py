@@ -10,7 +10,8 @@ import numpy as np
 
 @bt.get('/') # or @route('/login')
 def init():
-    return '''<h1>First Heroku App2!!!</h1>'''
+	
+    return "<h1>First Heroku App "+str(np.random.randint())+" !!!</h1>"
 
 
 bt.run(host='0.0.0.0', port=argv[1])
