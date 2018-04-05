@@ -17,4 +17,4 @@ def init():
     return '''<h1>First Heroku App!!!</h1>'''
 
 
-bt.run(host='localhost', port=80, server='paste')
+bottle.run(host='0.0.0.0', port=argv[1])
