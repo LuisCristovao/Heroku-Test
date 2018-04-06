@@ -18,4 +18,4 @@ def init():
     return "<h1>Your are the visitor "+str(counter)+" !!!</h1>"
 
 
-bt.run(host='0.0.0.0', port=argv[1])
+bt.run(host='0.0.0.0', port=argv[1], server='paste')
