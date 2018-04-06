@@ -12,7 +12,8 @@ counter=0
 
 @bt.get('/') # or @route('/login')
 def init():
-	counter+=1
+    global counter
+    counter+=1
     #return "<h1>First Heroku App "+str(np.random.random_sample())+" !!!</h1>"
     return "<h1>Your are the visitor "+str(counter)+" !!!</h1>"
 
