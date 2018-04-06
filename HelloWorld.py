@@ -20,7 +20,8 @@ def init():
     global counter
     counter+=1
     #return "<h1>First Heroku App "+str(np.random.random_sample())+" !!!</h1>"
-    return "<h1>"+mt.speak()++str(counter)+" !!!</h1>"
+    return "<h1>"+mt.speak()+str(counter)+" !!!</h1>"
 
 
-bt.run(host='0.0.0.0', port=argv[1], server='paste')
+#bt.run(host='0.0.0.0', port=argv[1], server='paste')
+bt.run(host='localhost', port=80, server='paste')

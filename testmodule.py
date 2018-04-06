@@ -11,7 +11,7 @@ class Test:
         self.text=text
         
     def speak(self):
-        print(self.text)
+        return self.text
         
         
 print(__name__)
